@@ -1,0 +1,6 @@
+train: ignored  # 任意合法字串即可（不會實際使用）
+
+val: C:\Users\rem\Desktop\yolov5-master\yolov5-master\sample\val\images # 圖片資料夾路徑
+
+nc: 5
+names: ['hole', 'leak', 'normal', 'white', 'bhole']
