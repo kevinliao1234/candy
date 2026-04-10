@@ -1,0 +1,26 @@
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Current SDK version is 0.15.11
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Configure stats pid to 13708
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Loading settings from C:\Users\rem\.config\wandb\settings
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Loading settings from C:\Users\rem\Desktop\PyTorch_YOLOv4-master\PyTorch_YOLOv4-master\wandb\settings
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'C:\\Users\\rem\\Desktop\\PyTorch_YOLOv4-master\\PyTorch_YOLOv4-master\\train.py', 'program': 'train.py'}
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\rem\Desktop\PyTorch_YOLOv4-master\PyTorch_YOLOv4-master\wandb\offline-run-20250801_195128-m7p7nn8q\logs\debug.log
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\rem\Desktop\PyTorch_YOLOv4-master\PyTorch_YOLOv4-master\wandb\offline-run-20250801_195128-m7p7nn8q\logs\debug-internal.log
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:init():568] calling init triggers
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov4.pth', 'cfg': 'yolov4.cfg', 'data': 'coco_custom.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.1, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.3, 'cls_pw': 1.0, 'obj': 0.6, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.9, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0}, 'epochs': 300, 'batch_size': 16, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'local_rank': -1, 'log_imgs': 16, 'workers': 8, 'project': 'runs/train', 'name': 'exp', 'exist_ok': False, 'total_batch_size': 16, 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs\\train\\exp2'}
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:init():618] starting backend
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:init():622] setting up manager
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=spawn, using: spawn
+2025-08-01 19:51:28,134 INFO    MainThread:13708 [wandb_init.py:init():628] backend started and connected
+2025-08-01 19:51:28,150 INFO    MainThread:13708 [wandb_init.py:init():720] updated telemetry
+2025-08-01 19:51:28,150 INFO    MainThread:13708 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-08-01 19:51:28,165 INFO    MainThread:13708 [wandb_init.py:init():804] starting run threads in backend
+2025-08-01 19:51:28,378 INFO    MainThread:13708 [wandb_run.py:_console_start():2199] atexit reg
+2025-08-01 19:51:28,378 INFO    MainThread:13708 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2025-08-01 19:51:28,378 INFO    MainThread:13708 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2025-08-01 19:51:28,378 INFO    MainThread:13708 [wandb_run.py:_redirect():2144] Redirects installed.
+2025-08-01 19:51:28,378 INFO    MainThread:13708 [wandb_init.py:init():845] run started, returning control to user process
+2025-08-01 20:08:06,476 WARNING MsgRouterThr:13708 [router.py:message_loop():77] message_loop has been closed

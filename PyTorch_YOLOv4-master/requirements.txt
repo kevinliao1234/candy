@@ -1,0 +1,21 @@
+# numpy == 1.17
+# opencv-python >= 4.1
+# torch == 1.6
+# torchvision
+# matplotlib
+# pycocotools
+# tqdm
+# pillow
+# tensorboard >= 1.14
+
+numpy==1.17
+opencv-python==4.1.2.30
+torch==1.6.0
+torchvision==0.7.0
+matplotlib
+pycocotools-windows
+tqdm
+pillow
+tensorboard==2.4.0
+seaborn
+thop
